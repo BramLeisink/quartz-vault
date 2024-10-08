@@ -1,11 +1,16 @@
 ---
 aliases:
+  - test
+authors:
+  - Bram Leisink
+tags:
+  - samenvatting
 ---
 Discrete dynamische modellen worden ook wel systemen genoemd. Ze ontwikkelen zich in de loop van de tijd. Er spelen verschillende variabelen een rol, die elkaar beïnvloeden.
 
 > Bij een discreet dynamisch model is er sprake van een vaste functie $F$:
 > - *De volgende waarde vind je door de functie $F$ op de huidige waarde toe te passen*
-> - Met aandere woorden: $\text{waarde} \rightarrow F \rightarrow \text{nieuwe waarde}$
+> - Met andere woorden: $\text{waarde} \rightarrow F \rightarrow \text{nieuwe waarde}$
 > - En dit herhaalt zich steeds: $\ldots u_{n-2} \rightarrow F \rightarrow u_{n-1} \rightarrow F \rightarrow u_n \rightarrow F \rightarrow u_{n+1} \rightarrow \ldots$
 > - $F$ heet een **iteratiefunctie**.
 
@@ -35,14 +40,14 @@ $u = u_0, u_1, u_2,\cdots, u_n$
 - **Kwadratische rij**
 	- Geen vaste factor of vast verschil
 ## Speciale rijen
-### **Verschilrij** $V$
+### **Verschilrij** ($V$)
 - $V_n = a_n - a_{n+1} \quad (n = 1,2,3,\ldots)$
 - Rij $a$ begint met rangnummer $0$, terwijl de verschilrij $V$ met rangnummer $1$ begint.
 - Speciale gevallen
 	- Verschilrij van een rekenkundige rij: constante rij
 	- Verschilrij van een meetkundige rij: meetkundige rij met dezelfde reden
 	- Verschilrij van een kwadratische rij: rekenkundige rij
-### **Somrij** $S$
+### **Somrij** ($S$)
 - Algemene stellingen
 	- $S_0 = a_0$
 	- $S_1 = a_0 + a_1$
@@ -91,15 +96,20 @@ Het vinden van $\displaystyle \lim_{ n \to \infty }\left( \frac{u_{n}}{v_{n}} \r
 > $\displaystyle \lim_{ n \to \infty } \frac{8n^3 + 5n^2}{4n^2 + n} = \lim_{ n \to \infty } \frac{8n + 5}{4 + n^{-1}} = \infty$, want de teller nadert tot oneindig en de noemer tot $4$.
 
 ### Limieten algebraisch bepalen
-Voor machtsvergelijkingen
+Voor machtsvergelijkingen:
 - Als $a>0$, dan $\displaystyle\lim_{ n \to \infty }n^a = \infty$
 - Als $a<0$, dan $\displaystyle\lim_{ n \to \infty }n^a = 0$
 - Als $g > 1$, dan $\displaystyle \lim_{ n \to \infty }g^n = \infty$
 - Als $0 < g < 1$, dan $\displaystyle \lim_{ n \to \infty }g^n = 0$
 %%Todo: Lijst aanvullen zodat bijv ook lineaire en quadratische functies er bij staan.%%
 ### Limieten bepalen met webgrafieken
+*Volgt nog*
 
 ## Opmerkingen
 ### Bronnen
-- [De Wageningse Methode: discrete dynamische modellen](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=456V+wiskunde+D%2F3.+Discrete+Dynamische+modellen%2FHoofdstuk.pdf)
-
+- [De Wageningse Methode: Discrete dynamische modellen](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2F3.+Discrete+dynamische+modellen_nieuw.pdf)
+- [RU: Rijen en rijtjes](https://www.math.ru.nl/~keune/Getallen/Getallense25.xht)
+- [RU: Recursieve definities](https://www.math.ru.nl/~keune/Getallen/Getallense26.xht)
+### Oefenen
+- [De Wageningse Methode: Discrete dynamische modellen](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2F3.+Discrete+dynamische+modellen_nieuw.pdf)
+- [De Wageningse Methode: Oefentoets](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2FZT_DDM.pdf)
