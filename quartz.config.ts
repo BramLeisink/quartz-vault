@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "nl-NL",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "vault.bramleisink.nl",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
