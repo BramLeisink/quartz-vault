@@ -8,14 +8,16 @@ import style from "./styles/contentMeta.scss"
 
 interface ContentMetaOptions {
   /**
-   * Whether to display reading time
+   * Whether to display reading time and authors
    */
   showReadingTime: boolean
+  showAuthors: boolean
   showComma: boolean
 }
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
+  showAuthors: true,
   showComma: true,
 }
 
@@ -40,6 +42,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
           minutes: Math.ceil(minutes),
         })
         segments.push(displayedTime)
+      }
+
+      // Display authors if enabled
+      if (options.showAuthors && fileData?.frontmatter?.authors) {
+        segments.push(fileData.frontmatter.authors[0]);
       }
 
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
