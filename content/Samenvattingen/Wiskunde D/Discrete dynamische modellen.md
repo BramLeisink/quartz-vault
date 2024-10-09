@@ -57,8 +57,8 @@ $u = u_0, u_1, u_2,\cdots, u_n$
 	- $S_n = \frac{1}{2}\cdot n\cdot (a_0 + a_n)$
 	- $n\times$ het gemiddelde van de rij
 - Bij een meetkundige rij ($c\cdot r^n$)
-	- $S_n = c \cdot \frac{1-r^{n+1}}{1-r}$
-	- $S_n = \text{beginwaarde} \cdot \frac{1 - \text{reden}^{n+1}}{1 - \text{reden}}$
+	- $S_{n} = \frac{c\cdot r^{n+1} - c}{r-1}$
+	- $S_{n} = \frac{\text{volgende} - \text{eerste} }{\text{reden}-1}$
 ## Limieten
 > Gegeven is een rij $u_n, n = 0,1,2,\ldots$
 > Dan $\displaystyle \lim_{n \to \infty} u_n = L$, als de termen van de rij $u_n$ op den duur minder dan elk positie getal, hoe klein ook, van $L$ afwijken.
