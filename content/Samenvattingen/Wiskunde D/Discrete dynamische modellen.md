@@ -1,10 +1,10 @@
 ---
-aliases:
-  - test
+aliases: 
 authors:
   - Bram Leisink
 tags:
   - samenvatting
+  - wisd
 ---
 Discrete dynamische modellen worden ook wel systemen genoemd. Ze ontwikkelen zich in de loop van de tijd. Er spelen verschillende variabelen een rol, die elkaar beïnvloeden.
 
