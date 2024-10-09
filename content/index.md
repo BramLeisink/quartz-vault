@@ -1,6 +1,6 @@
 ---
 title: Welkom in mijn Vault
-description: Dit is ff een test
+description:
 ---
 Dit is en wordt een plek met voorbereidend materiaal voor alle soorten toetsen en examens!
 ## Handige links
