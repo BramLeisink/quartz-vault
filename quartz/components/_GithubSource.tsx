@@ -11,7 +11,7 @@ interface GithubSourceOptions {
 
 const defaultOptions: GithubSourceOptions = {
   repoLink: "github.com",
-  branch: "v4"
+  branch: "main"
 }
 
 export default ((opts?: Partial<GithubSourceOptions>) => {

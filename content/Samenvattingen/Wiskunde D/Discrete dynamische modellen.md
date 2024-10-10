@@ -106,10 +106,10 @@ Voor machtsvergelijkingen:
 *Volgt nog*
 
 ## Opmerkingen
+### Oefenen
+- [De Wageningse Methode: Discrete dynamische modellen](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2F3.+Discrete+dynamische+modellen_nieuw.pdf)
+- [De Wageningse Methode: Oefentoets](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2FZT_DDM.pdf)
 ### Bronnen
 - [De Wageningse Methode: Discrete dynamische modellen](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2F3.+Discrete+dynamische+modellen_nieuw.pdf)
 - [RU: Rijen en rijtjes](https://www.math.ru.nl/~keune/Getallen/Getallense25.xht)
 - [RU: Recursieve definities](https://www.math.ru.nl/~keune/Getallen/Getallense26.xht)
-### Oefenen
-- [De Wageningse Methode: Discrete dynamische modellen](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2F3.+Discrete+dynamische+modellen_nieuw.pdf)
-- [De Wageningse Methode: Oefentoets](https://wageningse-methode.nl/methode/het-lesmateriaal/?download_lesmateriaal=2015_456V+wiskunde+D%2F3.+Discrete+dynamische+modellen%2FZT_DDM.pdf)
