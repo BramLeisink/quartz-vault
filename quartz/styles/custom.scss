@@ -1,18 +1,31 @@
 @use "./base.scss";
 
-.transclude h1{
-	display: none; 
+.transclude h1 {
+    display: none;
 }
 
 .callout {
+    --callout-icon-video: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-play"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 8 6 4-6 4Z"/></svg>');
+
     --callout-icon-theorem: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sigma"><path d="M18 7V5a1 1 0 0 0-1-1H6.5a.5.5 0 0 0-.4.8l4.5 6a2 2 0 0 1 0 2.4l-4.5 6a.5.5 0 0 0 .4.8H17a1 1 0 0 0 1-1v-2"/></svg>');
+
+    &[data-callout="video"] {
+        --color: #505050;
+        --border: #50505044;
+        --bg: #50505010;
+        --callout-icon: var(--callout-icon-video);
+    }
 
     &[data-callout="theorem"] {
         --color: #00d495;
         --border: #00d49544;
         --bg: #00b0ff10;
         --callout-icon: var(--callout-icon-theorem);
-      }
+    }
+}
+
+span.katex {
+    white-space: nowrap;
 }
 
 @media print {
