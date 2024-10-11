@@ -6,10 +6,10 @@ tags:
 ## Licht- en donkerreacties
 Organellen die een belangrijke rol spelen bij de stofwisseling:
 - Mitochondriën
-	- Dissimilatie: $\ce{O2} + \text{glucose} \to \ce{H2O} + \ce{CO2}$
-	- Omzetten naar APT: $\text{ADP} \to \text{ATP}$
+	- Dissimilatie: $\ce{O2 + glucose -> H2O + CO2}$
+	- Omzetten naar APT: $\ce{ADP -> ATP}$
 - Chloroplasten/bladgroenkorrels
-	- Assimilatie: $\ce{CO2}+\ce{H2O} \to \ce{O2} + \text{glucose}$;
+	- Assimilatie: $\ce{CO2+H2O -> O2 + glucose}$;
 	- Krijgt energie uit licht
 	- Fotosynthese
 ### Fotosynthese: calvincyclus & lichtreactie
